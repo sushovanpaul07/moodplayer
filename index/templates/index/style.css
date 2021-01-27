@@ -1,0 +1,61 @@
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg.jpg);
+	background-size: cover;
+}
+#regbox{
+	margin: auto;
+	margin-top: 100px;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 20px;
+	padding: 20px;
+	transition:1s ease-in;
+}
+#regbox:hover{
+	background-color: rgba(255,255,255,0.1);
+	box-shadow: 10px 10px 60px 20px #000000;
+	transition: 1s ease;
+	background-filter: blur(2px);
+	
+}
+
+h1{
+	text-shadow: 0 2px 3px #000000, 0 0 5px #000000;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 200%;
+	color: rgb(125, 201, 164);
+	text-align: center;
+
+}
+label{
+	
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 25px; 
+	margin-top: 30px;
+
+	color: rgba(125, 201, 164); 
+	
+}
+p{
+	margin-bottom: 10px;
+}
+input{
+	color:lightgrey;
+	padding: 15px;
+	width: 100%;
+	height: 30px;
+	margin: 0px;
+	font-size: 15px;
+	text-align: center; 
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0);
+}
+input:hover{
+	border: solid 2px;
+	border-color: rgba(125, 201, 164); 
+	background-color: rgba(0,0,0,0.6);
+	transition : 1s ease-in;
+}
+* {
+  box-sizing: border-box;
+}

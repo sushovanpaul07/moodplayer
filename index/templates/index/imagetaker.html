@@ -1,0 +1,35 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Imagetaker</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action="{% url 'imagetaker' %}" method="post" enctype="multipart/form-data">-->
+<!-- {% csrf_token %}-->
+<!--                        <p>{{ form.non_field_errors }}</p>-->
+<!--                        <p>{{ form.docfile.label_tag }} </p>-->
+<!--                        <p>-->
+<!--                                {{ form.docfile.errors }}-->
+<!--                                {{ form.docfile }}-->
+<!--                        </p>-->
+<!--                        <p><input type="submit" value="Upload" /></p>-->
+<!--</form>-->
+
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hotel_image</title>
+</head>
+<body>
+	<form method = "post" enctype="multipart/form-data">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button type="submit">Upload</button>
+	</form>
+</body>
+</html>
