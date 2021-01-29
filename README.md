@@ -1,11 +1,11 @@
-# moodplayer
-a full stack web project which takes image of a person’s face
+# Moodplayer
+A full stack web project which takes image of a person’s face
 and uses machine learning model to detect mood and then play music
 according to the person’s mood.
 
 
 
-Dependencies
+#Dependencies
 -tensorflow
 -tflearn
 -keras
