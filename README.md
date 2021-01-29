@@ -5,7 +5,7 @@ according to the person’s mood.
 
 
 
-#Dependencies
+Dependencies
 -tensorflow
 -tflearn
 -keras
